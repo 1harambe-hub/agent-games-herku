@@ -1,0 +1,19 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "Agent Games arena agent (Proof Gatekeeper + Steal the VFY) — herku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.mjs",
+    "commitment": "node commitment.mjs",
+    "test": "node test_local.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circomlibjs": "^0.1.7",
+    "js-sha3": "^0.14.0",
+    "snarkjs": "^0.7.6"
+  }
+}
