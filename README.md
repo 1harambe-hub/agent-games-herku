@@ -98,3 +98,4 @@ later task could then be mis-approved).
 - No Kurier integration: proofs are returned to the platform, which
   re-verifies them offline. `proof_tx` in responses echoes the task's
   reference. Nothing is spent on-chain.
+  redeploy
